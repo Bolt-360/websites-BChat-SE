@@ -176,3 +176,4 @@ yarn next build && next export
 
 After running the above command go to `/landing` folder. You will find a `out` folder there. Drag
 and drop this `out` folder on netlify `sites` tab. Now after finishing the upload you are ready to go.
+# websites-BChat-SE
