@@ -2,7 +2,7 @@ import NextImage from 'common/components/NextImage';
 import Text from 'common/components/Text';
 import Container from 'common/components/UI/Container';
 import { clients } from 'common/data/SaasAppDark';
-import React, { Fragment } from 'react';
+import { Fragment } from 'react';
 import Slider from 'react-slick';
 import Section, { Figure, SliderWrapper, Title } from './clients.style';
 
@@ -53,7 +53,7 @@ const Clients = () => {
     <Section>
       <Container width="1400px">
         <Title>
-          <Text content="Simplified scheduling for more than 200,000 customers" />
+          <Text content=" Simplifique o atendimento e aumente a eficiência da sua equipe" />
         </Title>
         <SliderWrapper>
           <Slider {...settings}>

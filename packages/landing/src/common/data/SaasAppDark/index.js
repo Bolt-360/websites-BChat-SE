@@ -59,27 +59,27 @@ export const clients = [envato, evernote, forbes, geekwire, slack, usaToday];
 export const services = [
   {
     id: 1,
-    title: 'Fast Performance',
+    title: 'Alto Desempenho',
     icon: service1,
   },
   {
     id: 2,
-    title: 'User Customization',
+    title: 'Personalização de Usuário',
     icon: service2,
   },
   {
     id: 3,
-    title: 'Modify structure',
+    title: 'Modificação de Estrutura',
     icon: service3,
   },
   {
     id: 4,
-    title: 'Customer Analysis',
+    title: 'Análise de Cliente',
     icon: service4,
   },
   {
     id: 5,
-    title: 'Instant Support',
+    title: 'Suporte Instantâneo',
     icon: service5,
   },
 ];
@@ -89,26 +89,25 @@ export const monitoringFeatures = [
   {
     id: 1,
     icon: rocket,
-    title: 'Daily Graph analysis',
-    desc: `Stay on top of your task lists and stay in touch with what's happening by the latest UI updates`,
+    title: 'Análise de dados diária',
+    desc: `Acompanhe seu desempenho e mantenha-se em contato com o que está acontecendo pelas últimas atualizações de interface`,
   },
   {
     id: 2,
     icon: headphone,
-    title: 'Communication Speedy',
-    desc: `Stay on top of your task lists and stay in touch with what's happening and what’s out.`,
+    title: 'Comunicação Rápida',
+    desc: `Fique por cima de suas listas de tarefas e mantenha-se em contato com o que está acontecendo e o que está fora.`,
   },
 ];
 
 // stats counter section
 export const statsCounter = {
   blockTitle: {
-    subtitle: 'Monthly Stats',
-    title: `Take your user monitoring experience to new ultimate level with file tracking`,
-    text: 'Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool. It is built to perform and run fast on all of the latest mobile devices. Build out-of the box blazing fast apps with a small footprint and built-in best practices.',
+    title: `Engajamento do cliente facilitado`,
+    text: 'O BChat SE torna sua equipe mais produtiva, ágil e capaz de colaborar sem precisar alternar entre aplicativos.',
     button: {
       link: '#',
-      label: 'Discover more',
+      label: 'Saiba mais',
     },
   },
   posts: [
@@ -138,24 +137,23 @@ export const statsCounter = {
     },
   ],
 };
-
 // video intro section
 export const videoIntro = {
   features: [
     {
       id: 1,
-      title: '1-month Free Trial',
-      desc: 'We are open for trial sessions',
+      title: 'Chat ao vivo',
+      desc: 'Interaja em tempo real com os visitantes do seu site.',
     },
     {
       id: 2,
-      title: 'Sales Widgets',
-      desc: 'Stay on top of your task lists',
+      title: 'Widget de chat',
+      desc: 'Adicione um widget de chat ao vivo que complemente sua identidade visual.',
     },
     {
       id: 3,
-      title: 'Free security update',
-      desc: 'Every month we provide updates',
+        title: 'Atendimento ao cliente',
+      desc: 'Ofereça um atendimento ao cliente com um chat ao vivo que combina com sua marca.',
     },
   ],
 };
@@ -197,31 +195,24 @@ export const testimonials = [
   {
     id: 1,
     logo: logo1,
-    author: 'Johnny Simpson',
-    designation: 'Head of Design',
-    quote: `Each room is loaded with the most collaborative surfaces so you can quickly take notes, capture to-dos, and share ideas. Pick one of our stock themes, or create your custom theme with the editors.`,
+    author: 'Dennis Henry',
+    designation: 'Tech Lead',
+    quote: `O BChat SE nos permite personalizar a experiência omnichannel da maneira que queremos, diferente de outras soluções. Além disso, a equipe do BChat SE está sempre pronta para ajudar. Basta enviar uma mensagem e eles respondem prontamente a todas as dúvidas que temos.`,
   },
   {
     id: 2,
     logo: logo2,
-    author: 'Deanna Hodges',
-    designation: 'Business HR Admin',
-    quote: `We deliver on such an expansive with innovation agenda with so many theme projects going on at any time, it can be hard to maintain momentum. So We appreciate to work with them.`,
+    author: 'Adam Compton',
+    designation: 'Executivo de Captção de Recursos',
+    quote: `O BChat SE é uma ferramenta essencial que nos ajuda a ter conversas em tempo real com nossos doadores e a responder perguntas que não apenas melhoram a satisfação, mas também o engajamento.`,
   },
   {
     id: 3,
     logo: logo3,
-    author: 'Gracelyn Mason',
-    designation: 'Senior Marketer',
-    quote: `Flat item is loaded with the most of collaborative surfaces so you can do quickly take notes, capture to-dos, and share ideas. Pick one of our stock themes, or create your custom theme with statics.`,
-  },
-  {
-    id: 4,
-    logo: logo1,
-    author: 'Gracelyn Mason',
-    designation: 'Senior Marketer',
-    quote: `Flat item is loaded with the most of collaborative surfaces so you can do quickly take notes, capture to-dos, and share ideas. Pick one of our stock themes, or create your custom theme with statics.`,
-  },
+    author: 'Dave Thackeray',
+    designation: 'CEO',
+    quote: `Estou totalmente apaixonado pelo BChat SE. O suporte ao cliente é impecável e essa plataforma de código aberto supera facilmente concorrentes como o Zendesk.`,
+  }
 ];
 
 export const footer = {

@@ -10,9 +10,9 @@ const Services = () => {
         <SectionHeading>
           <Heading
             as="h2"
-            content="Choose dashboard for every stage of your customer journey"
+            content="Todos os seus canais, uma única plataforma"
           />
-          <Text content="The rise of mobile devices transforms the way we consume information entirely and the world's most relevant channels such as Facebook and Instagram are almost exclusively used on mobile" />
+          <Text content="Conecte sua página do Facebook e o Direct do Instagram ao BChat SE e gerencie todas as conversas do Messenger sem precisar alternar entre apps." />
         </SectionHeading>
         <Grid>
           {services.map((service) => (

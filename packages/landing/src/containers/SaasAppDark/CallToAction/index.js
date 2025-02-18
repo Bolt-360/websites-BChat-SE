@@ -13,11 +13,10 @@ const VideoIntro = () => {
           <Text
             as="span"
             className="subtitle"
-            content="What we have integrate with"
           />
-          <Heading content="We have more than 20+ Integrations" />
-          <Text content="Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool. It is built to perform and run fast on all of the latest mobile devices." />
-          <Button title="View all Integrations" icon={<Icon icon={arrowRight2} />} iconPosition="right" />
+          <Heading content="Centralize toda a comunicação da sua empresa em um só lugar" />
+          <Text content="Gerencie todas as conversas da sua empresa em um único sistema, integrando diferentes canais de comunicação sem complicação." />
+          <Button title="Saiba mais" icon={<Icon icon={arrowRight2} />} iconPosition="right" />
         </SectionHeading>
       </BGImage>
     </Section>

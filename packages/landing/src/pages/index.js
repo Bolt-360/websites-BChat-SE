@@ -49,7 +49,7 @@ const SaasAppDark = () => {
           <Clients />
           <Services />
           <Monitoring />
-          <StatsCounter />
+          <StatsCounter/>
           <VideoIntro />
           <Testimonials />
           <CallToAction />

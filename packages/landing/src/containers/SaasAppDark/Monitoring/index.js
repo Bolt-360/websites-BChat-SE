@@ -5,7 +5,6 @@ import NextImage from 'common/components/NextImage';
 import Text from 'common/components/Text';
 import Container from 'common/components/UI/Container';
 import { monitoringFeatures } from 'common/data/SaasAppDark';
-import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Section, {
   Content,
@@ -28,11 +27,10 @@ const Monitoring = () => {
             </div>
           </FigureGroup>
           <Content>
-            <Text className="subtitle" content="File System Tracking" />
-            <Heading content="Advanced analytics tools to keep you in control" />
+            <Heading content="Central de suporte omnichannel" />
             <Text
               className="description"
-              content="Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool with the new experience templates."
+              content="O BChat SE se conecta aos principais canais de comunicação com clientes, como E-mail, chat ao vivo no site, Facebook, Twitter, WhatsApp, Instagram, Line e muito mais. Isso permite oferecer uma experiência consistente em todos os canais – a partir de um único painel."
             />
             <FeatureList>
               {monitoringFeatures?.map((feature) => (

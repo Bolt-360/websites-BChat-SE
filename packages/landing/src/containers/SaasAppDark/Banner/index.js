@@ -1,20 +1,17 @@
-import React from 'react';
-import Container from 'common/components/UI/Container';
-import Text from 'common/components/Text';
+import { Modal } from '@nextui-org/react';
+import dashboard from 'common/assets/image/saasAppDark/banner-dashboard.png';
+import playIcon from 'common/assets/image/saasAppDark/icons/play.svg';
 import Button from 'common/components/Button';
 import NextImage from 'common/components/NextImage';
-import Image from 'common/components/Image';
-import Section, {
-  BannerContentWrapper,
-  BannerContent,
-  VideoWrapper,
-  Buttons,
-  Figure,
-} from './banner.style';
-import playIcon from 'common/assets/image/saasAppDark/icons/play.svg';
-import dashboard from 'common/assets/image/saasAppDark/banner-dashboard.png';
-import { Modal } from '@nextui-org/react';
+import Text from 'common/components/Text';
+import Container from 'common/components/UI/Container';
 import { useState } from 'react';
+import Section, {
+  BannerContent,
+  BannerContentWrapper,
+  Buttons,
+  Figure
+} from './banner.style';
 
 const Banner = () => {
   const [openModal, setModal] = useState(false);
@@ -25,17 +22,17 @@ const Banner = () => {
         <BannerContentWrapper>
           <BannerContent>
             <h2 className="animate__animated animate__fadeInUp">
-              The leading Customer <span>dashboard</span> for your daily
-              workspace
+              Relacionamentos com <span>Clientes</span> encantadores
+              em escala
             </h2>
             <Text
               className="animate__animated animate__fadeInUp"
-              content="Join 30,000+ businesses that use Segment's software and APIs to collect, clean, and control their customer data."
+              content="O BChat SE oferece todas as ferramentas para gerenciar conversas, fortalecer relacionamentos e encantar seus clientes em um só lugar."
             />
             <Buttons>
               <Button
                 colors="primary"
-                title="Get Free Trial"
+                title="Teste o Bchat SE"
                 className="button-one"
               />
               <button className="button-two" onClick={() => setModal(true)}>
@@ -43,7 +40,7 @@ const Banner = () => {
                   <img src={playIcon?.src} alt="play Icon" />
                 </span>
                 <span className="btn-txt">
-                  <span className="primary">Explore</span> Intro Video
+                  <span className="primary">Assista ao vídeo</span>
                 </span>
               </button>
             </Buttons>

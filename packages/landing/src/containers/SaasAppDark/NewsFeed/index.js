@@ -15,8 +15,7 @@ const NewsFeed = () => {
     <Section id="newsfeed">
       <Container width="1300px">
         <SectionHeading>
-          <Text as="span" content="Updated Blog Post" />
-          <Heading content="What our author post on Newsfeed" />
+          <Heading content="O que nossos autores postam no Newsfeed" />
         </SectionHeading>
         <Grid>
           {posts.map((post) => (

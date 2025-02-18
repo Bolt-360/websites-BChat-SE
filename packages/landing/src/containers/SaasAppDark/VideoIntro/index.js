@@ -20,9 +20,9 @@ const VideoIntro = () => {
     <Section id="portfolio">
       <Container width="1170px">
         <SectionHeading>
-          <Text as="span" content="Key selling points" />
-          <Heading content="Grain is an essential part of your daily workflow." />
-          <Text content="Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool. Create professional ads." />
+          <Heading content="Um chat ao vivo que combina com sua marca" />
+          <Text content="Interaja em tempo real com os visitantes do seu site. Adicione um widget de chat ao vivo que complemente sua identidade visual.
+Adicione um widget de chat ao vivo que complemente sua identidade visual." />
         </SectionHeading>
         <Figure>
           <NextImage src={banner} alt="video banner" />
