@@ -111,12 +111,15 @@ export const GlobalStyle = createGlobalStyle`
       }
     }
     .main_menu {
+      display: flex;
+      align-items: center;
+      border: solid #fff;
       margin-left: 45px;
       @media only screen and (min-width: 990px) and (max-width: 991px) {
         margin-left: 15px;
       }
       li {
-        display: inline-flex;
+        display: flex;
         padding-left: 13px;
         padding-right: 13px;
         @media (max-width: 1024px) {

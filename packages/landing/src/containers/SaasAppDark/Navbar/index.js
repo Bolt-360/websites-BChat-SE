@@ -1,6 +1,6 @@
 import { Modal } from '@nextui-org/react';
 import lockIcon from 'common/assets/image/saasAppDark/icons/lock.svg';
-import logo from 'common/assets/image/saasAppDark/logo.svg';
+import logo from 'common/assets/image/bchat.svg';
 import Box from 'common/components/Box';
 import Button from 'common/components/Button';
 import Drawer from 'common/components/Drawer';
@@ -35,7 +35,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
           <Logo
             href="#"
             logoSrc={logo}
-            title="SaaS Creative"
+            title="Bchat SE"
             logoStyle={logoStyle}
             className="sticky-logo nav-logo"
           />
@@ -47,17 +47,9 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
             />
 
             <div className="navbar-buttons">
-              <Button
-                {...button}
-                iconPosition="left"
-                icon={<img src={lockIcon?.src} alt="lock icon" />}
-                title="Login"
-                onClick={() => setLoginModal(true)}
-                className="navbar_button navbar_button_one"
-              />
               <Link href="#">
                 <a className="navbar_button navbar_button_two">
-                  <Button {...button} title="Join Free" />
+                  <Button {...button} title="Fale conosco" />
                 </a>
               </Link>
             </div>

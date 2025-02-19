@@ -20,11 +20,6 @@ export const menu_items = [
     path: '#newsfeed',
     offset: '70',
   },
-  {
-    label: 'Download App',
-    path: '#download_app',
-    offset: '70',
-  },
 ];
 
 // service section
@@ -193,11 +188,11 @@ export const posts = [
 
 export const testimonials = [
   {
-    id: 1,
-    logo: logo1,
-    author: 'Dennis Henry',
-    designation: 'Tech Lead',
-    quote: `O BChat SE nos permite personalizar a experiência omnichannel da maneira que queremos, diferente de outras soluções. Além disso, a equipe do BChat SE está sempre pronta para ajudar. Basta enviar uma mensagem e eles respondem prontamente a todas as dúvidas que temos.`,
+    id: 3,
+    logo: logo3,
+    author: 'Dave Thackeray',
+    designation: 'CEO',
+    quote: `Estou totalmente apaixonado pelo BChat SE. O suporte ao cliente é impecável e essa plataforma de código aberto supera facilmente concorrentes como o Zendesk.`,
   },
   {
     id: 2,
@@ -207,12 +202,12 @@ export const testimonials = [
     quote: `O BChat SE é uma ferramenta essencial que nos ajuda a ter conversas em tempo real com nossos doadores e a responder perguntas que não apenas melhoram a satisfação, mas também o engajamento.`,
   },
   {
-    id: 3,
-    logo: logo3,
-    author: 'Dave Thackeray',
-    designation: 'CEO',
-    quote: `Estou totalmente apaixonado pelo BChat SE. O suporte ao cliente é impecável e essa plataforma de código aberto supera facilmente concorrentes como o Zendesk.`,
-  }
+    id: 1,
+    logo: logo1,
+    author: 'Dennis Henry',
+    designation: 'Tech Lead',
+    quote: `O BChat SE nos permite personalizar a experiência omnichannel da maneira que queremos, diferente de outras soluções. Além disso, a equipe do BChat SE está sempre pronta para ajudar. Basta enviar uma mensagem e eles respondem prontamente a todas as dúvidas que temos.`,
+  },
 ];
 
 export const footer = {
