@@ -78,20 +78,15 @@ export const Content = styled.div`
 
 export const CountryList = styled.div`
   gap: 15px;
+  color: #19191b;
   display: grid;
   margin-top: 40px;
-  grid-template-columns: 300px min-content;
+  grid-template-columns: 1fr;
   @media only screen and (max-width: 991px) {
     justify-content: center;
   }
-  @media only screen and (max-width: 820px) {
-    grid-template-columns: 210px min-content;
-  }
-  @media only screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
 
-  .PhoneInput {
+  .PhoneInput, .NameInput {
     border: 1px solid #fff;
     border-radius: 5px;
     padding: 0 20px;
@@ -100,12 +95,13 @@ export const CountryList = styled.div`
       max-width: 330px;
     }
   }
-  .PhoneInputInput {
+  .PhoneInputInput, .NameInput input {
     background-color: transparent;
     border: 0;
     min-height: 50px;
     color: ${themeGet('colors.white')};
     padding: 0;
+    width: 100%;
   }
   button {
     font-family: 'Inter', sans-serif;
@@ -121,6 +117,10 @@ export const CountryList = styled.div`
     min-height: 50px;
     cursor: pointer;
     transition: all .4s ease;
+    margin-top: 15px;
+    @media only screen and (min-width: 769px) {
+      max-width: 330px;
+    }
   }
 `;
 

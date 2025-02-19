@@ -7,6 +7,7 @@ import { footer } from 'common/data/SaasAppDark';
 import { Icon } from 'react-icons-kit';
 import { paperPlane } from 'react-icons-kit/fa/paperPlane';
 import { ic_place } from 'react-icons-kit/md/ic_place';
+import Box from 'common/components/Box';
 import {
   AboutUs, ContactInfo, FooterWidget, Grid, InfoItem, Section
 } from './footer.style';
@@ -17,7 +18,10 @@ const Footer = () => {
       <Container width="1300px">
         <Grid>
           <AboutUs>
-            <Image src={footer.about.logo?.src} alt="Bchat SE" />
+            <Box display="flex" alignItems="center" vertical-align="middle">
+              <Image src ={footer.about.nome?.src} alt="Bchat SE" style={{width: '80px'}}/>
+              <Image src={footer.about.logo?.src} alt="Bchat SE"  style={{width: '38px', marginTop: '4px'}}/>
+            </Box>
             <Text content={footer.about.text} />
           </AboutUs>
           {footer.widgets.map((item) => (

@@ -22,6 +22,7 @@ import { marginTop, maxHeight } from 'styled-system';
 const Navbar = ({ navbarStyle, logoStyle, logoNomeStyle, logoBchatStyle, button, row, menuWrapper }) => {
   const [loginModal, setLoginModal] = useState(false);
   const { state, dispatch } = useContext(DrawerContext);
+  const message = 'Olá, estou interessado em saber mais sobre o BChat SE';
 
   // Toggle drawer
   const toggleHandler = () => {
@@ -59,7 +60,7 @@ const Navbar = ({ navbarStyle, logoStyle, logoNomeStyle, logoBchatStyle, button,
             />
 
             <div className="navbar-buttons">
-              <Link href="#">
+              <Link href={`https://wa.me/558431901700?text=${encodeURIComponent(message)}`}>
                 <a className="navbar_button navbar_button_two">
                   <Button {...button} title="Fale conosco" />
                 </a>

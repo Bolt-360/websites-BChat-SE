@@ -31,7 +31,7 @@
     ]
   },
   "dependencies": {
-
+    "react-phone-number-input": "^3.4.12",
     "react-waypoint": "^10.1.0"
   }
 }

@@ -36,7 +36,8 @@ import service3 from 'common/assets/image/saasAppDark/icons/service3.svg';
 import service4 from 'common/assets/image/saasAppDark/icons/service4.svg';
 import service5 from 'common/assets/image/saasAppDark/icons/service5.svg';
 // footer section
-import siteLogo from 'common/assets/image/bchat.svg';
+import siteLogo from 'common/assets/image/bchatLogo.svg';
+import siteNome from 'common/assets/image/bchatNome.svg';
 // news feed section
 // testimonials section
 import logoNome from 'common/assets/image/bchatNome.svg';
@@ -285,6 +286,7 @@ export const testimonials = [
 
 export const footer = {
   about: {
+    nome: siteNome,
     logo: siteLogo,
     text: `Centralize toda a comunicação da sua empresa em um só lugar.`,
   },
