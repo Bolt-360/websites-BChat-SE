@@ -231,31 +231,31 @@ export const videoIntro = {
 export const posts = [
   {
     id: 1,
-    date: 'June 3, 2020',
+    date: '2025-02-19',
     image: post1,
-    title: 'The three Fundamental Rules to Keep Your Website Goal Orientated',
+    title: 'As 5 melhores práticas para atendimento ao cliente',
     excerpt: {
-      label: 'Learn More',
+      label: 'Saiba mais',
       link: '#',
     },
   },
   {
     id: 2,
-    date: 'Dec 8, 2020',
+    date: '2025-02-19',
     image: post2,
-    title: 'Five Common Mistakes Teams Make When Tracking Performance',
+    title: 'Cinco erros comuns que equipes cometem ao rastrear o desempenho',
     excerpt: {
-      label: 'Learn More',
+      label: 'Saiba mais',
       link: '#',
     },
   },
   {
     id: 3,
-    date: 'Dec 8, 2020',
+    date: '2025-02-19',
     image: post3,
-    title: `Why You Might Want to Reconsider with Tracking First Meaningful Paint`,
+    title: `Por que você pode querer reconsiderar o rastreamento do Primeiro Paint Significativo`,
     excerpt: {
-      label: 'Learn More',
+      label: 'Saiba mais',
       link: '#',
     },
   },
