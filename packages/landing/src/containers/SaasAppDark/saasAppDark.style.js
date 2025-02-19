@@ -164,7 +164,7 @@ export const GlobalStyle = createGlobalStyle`
     .navbar-buttons {
       margin-left: auto;
       align-items: center;
-      display: grid;
+      display: block;
       gap: 20px;
       grid-template-columns: repeat(2, 1fr);
       @media only screen and (min-width: 990px) and (max-width: 991px) {
