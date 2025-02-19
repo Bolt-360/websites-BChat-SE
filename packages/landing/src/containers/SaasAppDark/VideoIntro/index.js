@@ -20,6 +20,7 @@ const VideoIntro = () => {
     <Section id="portfolio">
       <Container width="1170px">
         <SectionHeading>
+          <Text as="span" content="Pontos de venda chave" />
           <Heading content="Um chat ao vivo que combina com sua marca" />
           <Text content="Interaja em tempo real com os visitantes do seu site. Adicione um widget de chat ao vivo que complemente sua identidade visual.
 Adicione um widget de chat ao vivo que complemente sua identidade visual." />
