@@ -23,12 +23,9 @@ export const menu_items = [
 ];
 
 // service section
-import envato from 'common/assets/image/saasAppDark/clients/envato.png';
-import evernote from 'common/assets/image/saasAppDark/clients/evernote.png';
-import forbes from 'common/assets/image/saasAppDark/clients/forbes.png';
-import geekwire from 'common/assets/image/saasAppDark/clients/geekwire.png';
-import slack from 'common/assets/image/saasAppDark/clients/slack.png';
-import usaToday from 'common/assets/image/saasAppDark/clients/usa-today.png';
+import pegado from 'common/assets/image/saasAppDark/clients/pegado.webp';
+import pensarclube from 'common/assets/image/saasAppDark/clients/pensarclube-web.webp';
+import smart from 'common/assets/image/saasAppDark/clients/smartwebp.webp';
 import headphone from 'common/assets/image/saasAppDark/icons/headphone.svg';
 // monitoring section
 import rocket from 'common/assets/image/saasAppDark/icons/rocket.svg';
@@ -48,7 +45,7 @@ import post3 from 'common/assets/image/saasAppDark/post3.png';
 import logo1 from 'common/assets/image/saasAppDark/tm-logo1.svg';
 import logo2 from 'common/assets/image/saasAppDark/tm-logo2.svg';
 import logo3 from 'common/assets/image/saasAppDark/tm-logo3.svg';
-export const clients = [envato, evernote, forbes, geekwire, slack, usaToday];
+export const clients = [pensarclube,smart,pegado];
 
 
 export const services = [

@@ -34,11 +34,11 @@ export const Figure = styled.figure`
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0.7;
+  opacity: 1;
   cursor: pointer;
   transition: opacity .4s ease;
   &:hover {
-    opacity: 0.9;
+    opacity: 1;
     animation: var(--wobbleVertical);
   }
 `;
@@ -54,7 +54,7 @@ export const SliderWrapper = styled.div`
   }
   figure {
     img {
-      opacity: 0.5;
+      opacity: 1;
     }
   }
   .slick-slide > div {
