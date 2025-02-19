@@ -1,6 +1,7 @@
 import { Modal } from '@nextui-org/react';
 import lockIcon from 'common/assets/image/saasAppDark/icons/lock.svg';
-import logo from 'common/assets/image/bchat.svg';
+import logoNome from 'common/assets/image/bchatNome.svg';
+import logoBchat from 'common/assets/image/bchatLogo.svg';
 import Box from 'common/components/Box';
 import Button from 'common/components/Button';
 import Drawer from 'common/components/Drawer';
@@ -16,8 +17,9 @@ import PropTypes from 'prop-types';
 import React, { useContext } from 'react';
 import { useState } from 'react';
 import LoginModal from '../LoginModal';
+import { marginTop, maxHeight } from 'styled-system';
 
-const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
+const Navbar = ({ navbarStyle, logoStyle, logoNomeStyle, logoBchatStyle, button, row, menuWrapper }) => {
   const [loginModal, setLoginModal] = useState(false);
   const { state, dispatch } = useContext(DrawerContext);
 
@@ -32,13 +34,23 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
     <NavbarWrapper {...navbarStyle}>
       <Container width="1300px">
         <Box {...row}>
-          <Logo
-            href="#"
-            logoSrc={logo}
-            title="Bchat SE"
-            logoStyle={logoStyle}
-            className="sticky-logo nav-logo"
-          />
+          <Box display="flex" alignItems="center" vertical-align="middle">
+            <Logo
+              href="#"
+              logoSrc={logoNome}
+              title="Bchat SE"
+              logoStyle={logoNomeStyle}
+              className="sticky-logo nav-logo"
+            />
+            <Logo
+              href="#"
+              logoSrc={logoBchat}
+              title="Bchat SE"
+              logoStyle={logoBchatStyle}
+              className="sticky-logo nav-logo"
+            />
+          </Box>
+          
           <Box {...menuWrapper} className="mainMenuWrapper">
             <ScrollSpyMenu
               className="main_menu"
@@ -106,8 +118,13 @@ Navbar.defaultProps = {
     width: '100%',
   },
   logoContainer: {},
-  logoStyle: {
+  logoNomeStyle: {
     maxWidth: ['126px', '126px'],
+  },
+  logoBchatStyle: {
+    maxWidth: ['48px', '48px'],
+    maxHeight: ['40px', '40px'],
+    marginTop: ['4px', '4px']
   },
   button: {},
   menuWrapper: {
