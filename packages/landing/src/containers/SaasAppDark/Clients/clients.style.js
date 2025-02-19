@@ -37,6 +37,11 @@ export const Figure = styled.figure`
   opacity: 1;
   cursor: pointer;
   transition: opacity .4s ease;
+  img {
+    width: auto;
+    height: 60px;
+    object-fit: contain;
+  }
   &:hover {
     opacity: 1;
     animation: var(--wobbleVertical);
@@ -48,24 +53,54 @@ export const SliderWrapper = styled.div`
   max-width: 1050px;
   margin-left: auto;
   margin-right: auto;
+
+  .slick-track {
+    display: flex !important;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .slick-slide {
+    height: 80px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin: 0 25px;
+
+    > div {
+      width: 100%;
+      height: 100%;
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
   .slider {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
   }
+
   figure {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    
     img {
+      max-width: 150px;
+      max-height: 60px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
       opacity: 1;
     }
   }
-  .slick-slide > div {
-    display: flex;
-    min-height: 35px;
-    align-items: center;
-    justify-content: center;
-    img {
-      margin: 0 auto;
-    }
-  }
+
   .slick-dots {
     display: flex !important;
     align-items: center;
