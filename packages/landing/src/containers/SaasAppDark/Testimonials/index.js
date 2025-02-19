@@ -40,6 +40,7 @@ const Testimonials = () => {
     <Section id='testimonials'>
       <Container width='1300px'>
         <SectionHeading>
+        <Text as='span' content='Depoimentos' />
           <Heading content='O que nossos clientes falam sobre nós' />
         </SectionHeading>
         <ReactSlick {...settings}>

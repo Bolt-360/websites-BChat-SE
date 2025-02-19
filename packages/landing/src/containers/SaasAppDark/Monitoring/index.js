@@ -27,6 +27,7 @@ const Monitoring = () => {
             </div>
           </FigureGroup>
           <Content>
+          <Text className="subtitle" content="Central de suporte omnichannel" />
             <Heading content="Central de suporte omnichannel" />
             <Text
               className="description"

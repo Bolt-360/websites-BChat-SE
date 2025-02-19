@@ -98,7 +98,8 @@ export const monitoringFeatures = [
 // stats counter section
 export const statsCounter = {
   blockTitle: {
-    title: `Engajamento do cliente facilitado`,
+    subtitle: 'Pontos de venda chave',
+    title: `Pontos de venda chave`,
     text: 'O BChat SE torna sua equipe mais produtiva, ágil e capaz de colaborar sem precisar alternar entre aplicativos.',
     button: {
       link: '#',

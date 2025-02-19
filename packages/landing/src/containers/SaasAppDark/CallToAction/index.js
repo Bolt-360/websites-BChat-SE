@@ -13,6 +13,7 @@ const VideoIntro = () => {
           <Text
             as="span"
             className="subtitle"
+            content="Pontos de venda chave"
           />
           <Heading content="Centralize toda a comunicação da sua empresa em um só lugar" />
           <Text content="Gerencie todas as conversas da sua empresa em um único sistema, integrando diferentes canais de comunicação sem complicação." />
