@@ -17,7 +17,7 @@ const Footer = () => {
       <Container width="1300px">
         <Grid>
           <AboutUs>
-            <Image src={footer.about.logo?.src} alt="Web App Creative" />
+            <Image src={footer.about.logo?.src} alt="Bchat SE" />
             <Text content={footer.about.text} />
           </AboutUs>
           {footer.widgets.map((item) => (

@@ -12,6 +12,7 @@ import Section, {
   Buttons,
   Figure
 } from './banner.style';
+import themeGet from '@styled-system/theme-get';
 
 const Banner = () => {
   const [openModal, setModal] = useState(false);
@@ -22,8 +23,8 @@ const Banner = () => {
         <BannerContentWrapper>
           <BannerContent>
             <h2 className="animate__animated animate__fadeInUp">
-              Relacionamentos com <span>Clientes</span> encantadores
-              em escala
+              Relacionamentos com clientes encantadores
+              em <span style={{color: '#15E49E'}}>Escala</span>
             </h2>
             <Text
               className="animate__animated animate__fadeInUp"
@@ -32,7 +33,7 @@ const Banner = () => {
             <Buttons>
               <Button
                 colors="primary"
-                title="Teste o Bchat SE"
+                title="Testar Bchat SE"
                 className="button-one"
               />
               <button className="button-two" onClick={() => setModal(true)}>

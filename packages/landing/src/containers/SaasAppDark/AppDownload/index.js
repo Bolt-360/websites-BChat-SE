@@ -9,6 +9,7 @@ import Section, {
   AppPreview, Content,
   CountryList, Grid, QrCode
 } from './appDownload.style';
+import Input from 'common/components/Input';
 
 
 

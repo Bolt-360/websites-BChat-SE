@@ -27,8 +27,8 @@ const Monitoring = () => {
             </div>
           </FigureGroup>
           <Content>
-          <Text className="subtitle" content="Central de suporte omnichannel" />
-            <Heading content="Central de suporte omnichannel" />
+          <Text className="subtitle" content="Central de suporte" />
+            <Heading content="Central de suporte OmniChannel" />
             <Text
               className="description"
               content="O BChat SE se conecta aos principais canais de comunicação com clientes, como E-mail, chat ao vivo no site, Facebook, Twitter, WhatsApp, Instagram, Line e muito mais. Isso permite oferecer uma experiência consistente em todos os canais – a partir de um único painel."

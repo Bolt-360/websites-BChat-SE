@@ -39,7 +39,7 @@ import service3 from 'common/assets/image/saasAppDark/icons/service3.svg';
 import service4 from 'common/assets/image/saasAppDark/icons/service4.svg';
 import service5 from 'common/assets/image/saasAppDark/icons/service5.svg';
 // footer section
-import siteLogo from 'common/assets/image/saasAppDark/logo.svg';
+import siteLogo from 'common/assets/image/bchat.svg';
 // news feed section
 import post1 from 'common/assets/image/saasAppDark/post1.png';
 import post2 from 'common/assets/image/saasAppDark/post2.png';
@@ -98,7 +98,7 @@ export const monitoringFeatures = [
 // stats counter section
 export const statsCounter = {
   blockTitle: {
-    subtitle: 'Pontos de venda chave',
+    subtitle: 'Pontos de venda',
     title: `Pontos de venda chave`,
     text: 'O BChat SE torna sua equipe mais produtiva, ágil e capaz de colaborar sem precisar alternar entre aplicativos.',
     button: {
@@ -139,17 +139,17 @@ export const videoIntro = {
     {
       id: 1,
       title: 'Chat ao vivo',
-      desc: 'Interaja em tempo real com os visitantes do seu site.',
+      desc: 'Interação em tempo real',
     },
     {
       id: 2,
       title: 'Widget de chat',
-      desc: 'Adicione um widget de chat ao vivo que complemente sua identidade visual.',
+      desc: 'Widget que complemente sua identidade visual.',
     },
     {
       id: 3,
         title: 'Atendimento ao cliente',
-      desc: 'Ofereça um atendimento ao cliente com um chat ao vivo que combina com sua marca.',
+      desc: 'Ofereça um chat ao vivo que combina com sua marca.',
     },
   ],
 };
