@@ -93,7 +93,7 @@ export const monitoringFeatures = [
 ];
 
 // stats counter section
-export const statsCounter = {
+export const bchatDesc_1 = {
   blockTitle: {
     subtitle: 'Pontos de venda',
     title: `Pontos de venda chave`,
@@ -130,6 +130,83 @@ export const statsCounter = {
     },
   ],
 };
+
+export const bchatDesc_2 = {
+  blockTitle: {
+    subtitle: 'Colaboração em Equipe',
+    title: `Colaboração em Equipe`,
+    text: 'O BChat SE torna sua equipe mais produtiva, ágil e capaz de colaborar sem precisar alternar entre aplicativos.',
+    button: {
+      link: '#',
+      label: 'Saiba mais',
+    },
+  },
+  posts: [
+    {
+      count: '80',
+      title: 'Up to',
+      text: 'Customer Response',
+      symbol: '%',
+    },
+    {
+      count: '99',
+      title: 'Consistent',
+      text: 'Performance Score',
+      symbol: '%',
+    },
+    {
+      count: '3.5',
+      title: 'Down to',
+      text: 'Response Time',
+      symbol: 'S',
+    },
+    {
+      count: '5x',
+      title: 'Up to',
+      text: 'Faster then others',
+      symbol: '',
+    },
+  ],
+};
+
+export const bchatDesc_3 = {
+  blockTitle: {
+    subtitle: 'Automatize suas tarefas',
+    title: `Automatize suas tarefas repetitivas`,
+    text: 'Configure regras de automação para lidar com o trabalho repetitivo, permitindo que você dedique mais atenção aos seus clientes.',
+    button: {
+      link: '#',
+      label: 'Saiba mais',
+    },
+  },
+  posts: [
+    {
+      count: '80',
+      title: 'Up to',
+      text: 'Customer Response',
+      symbol: '%',
+    },
+    {
+      count: '99',
+      title: 'Consistent',
+      text: 'Performance Score',
+      symbol: '%',
+    },
+    {
+      count: '3.5',
+      title: 'Down to',
+      text: 'Response Time',
+      symbol: 'S',
+    },
+    {
+      count: '5x',
+      title: 'Up to',
+      text: 'Faster then others',
+      symbol: '',
+    },
+  ],
+};
+
 // video intro section
 export const videoIntro = {
   features: [

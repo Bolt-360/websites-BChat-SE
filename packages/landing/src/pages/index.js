@@ -11,7 +11,9 @@ import Navbar from 'containers/SaasAppDark/Navbar';
 import NewsFeed from 'containers/SaasAppDark/NewsFeed';
 import { ContentWrapper, GlobalStyle } from 'containers/SaasAppDark/saasAppDark.style';
 import Services from 'containers/SaasAppDark/Services';
-import StatsCounter from 'containers/SaasAppDark/StatsCounter';
+import BchatDesc from 'containers/SaasAppDark/BchatDesc/section_1';
+import BchatDesc_2 from 'containers/SaasAppDark/BchatDesc/section_2';
+import BchatDesc_3 from 'containers/SaasAppDark/BchatDesc/section_3';
 import Testimonials from 'containers/SaasAppDark/Testimonials';
 import VideoIntro from 'containers/SaasAppDark/VideoIntro';
 import Head from 'next/head';
@@ -49,7 +51,9 @@ const SaasAppDark = () => {
           <Clients />
           <Services />
           <Monitoring />
-          <StatsCounter/>
+          <BchatDesc/>  
+          <BchatDesc_2/>
+          <BchatDesc_3/>
           <VideoIntro />
           <Testimonials />
           <CallToAction />
