@@ -38,10 +38,8 @@ import service5 from 'common/assets/image/saasAppDark/icons/service5.svg';
 // footer section
 import siteLogo from 'common/assets/image/bchat.svg';
 // news feed section
-import post1 from 'common/assets/image/saasAppDark/post1.png';
-import post2 from 'common/assets/image/saasAppDark/post2.png';
-import post3 from 'common/assets/image/saasAppDark/post3.png';
 // testimonials section
+import logoNome from 'common/assets/image/bchatNome.svg';
 import logo1 from 'common/assets/image/saasAppDark/tm-logo1.svg';
 import logo2 from 'common/assets/image/saasAppDark/tm-logo2.svg';
 import logo3 from 'common/assets/image/saasAppDark/tm-logo3.svg';
@@ -232,7 +230,7 @@ export const posts = [
   {
     id: 1,
     date: '2025-02-19',
-    image: post1,
+    image: logoNome,
     title: 'As 5 melhores práticas para atendimento ao cliente',
     excerpt: {
       label: 'Saiba mais',
@@ -242,7 +240,7 @@ export const posts = [
   {
     id: 2,
     date: '2025-02-19',
-    image: post2,
+    image: logoNome,
     title: 'Cinco erros comuns que equipes cometem ao rastrear o desempenho',
     excerpt: {
       label: 'Saiba mais',
@@ -252,7 +250,7 @@ export const posts = [
   {
     id: 3,
     date: '2025-02-19',
-    image: post3,
+    image: logoNome,
     title: `Por que você pode querer reconsiderar o rastreamento do Primeiro Paint Significativo`,
     excerpt: {
       label: 'Saiba mais',
