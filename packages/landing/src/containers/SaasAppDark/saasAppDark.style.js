@@ -113,7 +113,7 @@ export const GlobalStyle = createGlobalStyle`
     .main_menu {
       display: flex;
       align-items: center;
-      border: solid #fff;
+      margin-top: 20px;
       margin-left: 45px;
       @media only screen and (min-width: 990px) and (max-width: 991px) {
         margin-left: 15px;

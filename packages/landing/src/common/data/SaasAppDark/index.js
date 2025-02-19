@@ -1,22 +1,22 @@
 // menu items
 export const menu_items = [
   {
-    label: 'Home',
+    label: 'Início',
     path: '#home',
     offset: '70',
   },
   {
-    label: 'How to',
+    label: 'Serviços',
     path: '#how-to',
     offset: '70',
   },
   {
-    label: 'Testimonials',
+    label: 'Depoimentos',
     path: '#testimonials',
     offset: '70',
   },
   {
-    label: 'Newsfeed',
+    label: 'Blog',
     path: '#newsfeed',
     offset: '70',
   },
