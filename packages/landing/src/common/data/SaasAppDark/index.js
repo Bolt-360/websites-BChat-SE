@@ -218,108 +218,38 @@ export const testimonials = [
 export const footer = {
   about: {
     logo: siteLogo,
-    text: `We run Advanced Search reports on the criteria you care about to see how work is progressing and where to focus your effort.`,
+    text: `Centralize toda a comunicação da sua empresa em um só lugar.`,
   },
   widgets: [
     {
-      id: 2,
-      title: 'About Us',
+      id: 1,
+      title: 'Links Úteis',
       list: [
         {
           id: 1,
-          title: 'Support Center',
+          title: 'Suporte ao Cliente',
           link: '#',
         },
         {
           id: 2,
-          title: 'Customer Support',
+          title: 'Sobre',
           link: '#',
         },
         {
           id: 3,
-          title: 'About Us',
-          link: '#',
-        },
-        {
-          id: 4,
-          title: 'Copyright',
-          link: '#',
-        },
-        {
-          id: 5,
-          title: 'Popular Campaign',
-          link: '#',
-        },
-      ],
-    },
-    {
-      id: 3,
-      title: 'Our Information',
-      list: [
-        {
-          id: 1,
-          title: 'Return Policy ',
-          link: '#',
-        },
-        {
-          id: 2,
-          title: 'Privacy Policy',
-          link: '#',
-        },
-        {
-          id: 3,
-          title: 'Terms & Conditions',
-          link: '#',
-        },
-        {
-          id: 4,
-          title: 'Site Map',
-          link: '#',
-        },
-        {
-          id: 5,
-          title: 'Store Hours',
-          link: '#',
-        },
-      ],
-    },
-    {
-      id: 4,
-      title: 'My Account',
-      list: [
-        {
-          id: 1,
-          title: 'Press inquiries',
-          link: '#',
-        },
-        {
-          id: 2,
-          title: 'Social media ',
-          link: '#',
-        },
-        {
-          id: 3,
-          title: 'directories',
-          link: '#',
-        },
-        {
-          id: 4,
-          title: 'Images & B-roll',
-          link: '#',
-        },
-        {
-          id: 5,
-          title: 'Permissions',
+          title: 'Política de Privacidade',
           link: '#',
         },
       ],
     },
   ],
   contactInfo: {
-    title: 'Contact info',
-    address: `Amsterdam, Netherlands`,
-    phone: `+31 62 19 22 705`,
-    openingTime: `7 Days - 8am - 10pm`,
-    email: `info@redqteam.com`,
+    email: 'contato@bolt360.com.br',
+    address: 'Rua Tereza Bezerra Salustino 1902, Lagoa Nova, Natal/RN',
+    social: {
+      instagram: 'https://www.instagram.com/bolt360assessoria/',
+      linkedin: 'https://www.linkedin.com/company/bolt-360/posts/?feedView=all',
+      facebook: 'https://www.facebook.com/bolt360assessoria'
+    }
   },
 };
