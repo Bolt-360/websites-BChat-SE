@@ -47,7 +47,7 @@ const Testimonials = () => {
           {testimonials.map((testimonial) => (
             <Item key={testimonial.id}>
               <div>
-                <figure>
+                <figure style={{ width: '150px' }}>
                   <Image src={testimonial.logo?.src} alt='logo' />
                 </figure>
                 <Text as='blockquote' content={testimonial.quote} />

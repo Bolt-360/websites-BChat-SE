@@ -42,7 +42,7 @@ import siteNome from 'common/assets/image/bchatNome.svg';
 // testimonials section
 import logoNome from 'common/assets/image/bchatNome.svg';
 import logo1 from 'common/assets/image/saasAppDark/tm-logo1.svg';
-import logo2 from 'common/assets/image/saasAppDark/tm-logo2.svg';
+import logo2 from 'common/assets/image/saasAppDark/clients/pensarclube-web.webp';
 import logo3 from 'common/assets/image/saasAppDark/tm-logo3.svg';
 export const clients = [pensarclube,smart,pegado];
 
@@ -188,7 +188,7 @@ export const bchatDesc_3 = {
     {
       count: '99',
       title: 'Precisão de',
-      text: 'Processos Automatizados Sem Erros',
+      text: 'Processos Automatizados',
       symbol: '%',
     },
     {
