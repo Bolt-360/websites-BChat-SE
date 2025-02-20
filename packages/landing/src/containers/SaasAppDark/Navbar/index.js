@@ -1,7 +1,6 @@
 import { Modal } from '@nextui-org/react';
-import lockIcon from 'common/assets/image/saasAppDark/icons/lock.svg';
-import logoNome from 'common/assets/image/bchatNome.svg';
 import logoBchat from 'common/assets/image/bchatLogo.svg';
+import logoNome from 'common/assets/image/bchatNome.svg';
 import Box from 'common/components/Box';
 import Button from 'common/components/Button';
 import Drawer from 'common/components/Drawer';
@@ -12,17 +11,20 @@ import Container from 'common/components/UI/Container';
 import Logo from 'common/components/UIElements/Logo';
 import { DrawerContext } from 'common/contexts/DrawerContext';
 import { menu_items } from 'common/data/SaasAppDark';
-import Link from 'next/link';
 import PropTypes from 'prop-types';
-import React, { useContext } from 'react';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import LoginModal from '../LoginModal';
-import { marginTop, maxHeight } from 'styled-system';
 
 const Navbar = ({ navbarStyle, logoStyle, logoNomeStyle, logoBchatStyle, button, row, menuWrapper }) => {
   const [loginModal, setLoginModal] = useState(false);
   const { state, dispatch } = useContext(DrawerContext);
   const message = 'Olá, estou interessado em saber mais sobre o BChat SE';
+
+  const handleWhatsAppClick = (e) => {
+    e.preventDefault();
+    const whatsappUrl = `https://wa.me/558431901700?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+  };
 
   // Toggle drawer
   const toggleHandler = () => {
@@ -60,11 +62,13 @@ const Navbar = ({ navbarStyle, logoStyle, logoNomeStyle, logoBchatStyle, button,
             />
 
             <div className="navbar-buttons">
-              <Link href={`https://wa.me/558431901700?text=${encodeURIComponent(message)}`}>
-                <a className="navbar_button navbar_button_two">
-                  <Button {...button} title="Fale conosco" />
-                </a>
-              </Link>
+              <a 
+                href="#" 
+                onClick={handleWhatsAppClick}
+                className="navbar_button navbar_button_two"
+              >
+                <Button {...button} title="Fale conosco" />
+              </a>
             </div>
             <Drawer
               width="420px"
