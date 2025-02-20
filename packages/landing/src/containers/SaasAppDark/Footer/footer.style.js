@@ -19,7 +19,9 @@ export const Section = styled.footer`
 `;
 
 export const Grid = styled.div`
-  display: grid;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
   padding: 80px 0;
   grid-template-columns: repeat(5, 1fr);
   border-top: 1px solid ${rgba('#fff', 0.2)};

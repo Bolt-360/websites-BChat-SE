@@ -315,7 +315,7 @@ export const footer = {
   ],
   contactInfo: {
     email: 'contato@bolt360.com.br',
-    address: 'Rua Tereza Bezerra Salustino 1902, Lagoa Nova, Natal/RN',
+    address: 'Rua Tereza Bezerra Salustino 1902 Lagoa Nova, Natal/RN',
     social: {
       instagram: 'https://www.instagram.com/bolt360assessoria/',
       linkedin: 'https://www.linkedin.com/company/bolt-360/posts/?feedView=all',

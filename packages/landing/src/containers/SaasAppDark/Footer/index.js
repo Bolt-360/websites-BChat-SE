@@ -7,10 +7,14 @@ import { footer } from 'common/data/SaasAppDark';
 import { Icon } from 'react-icons-kit';
 import { paperPlane } from 'react-icons-kit/fa/paperPlane';
 import { ic_place } from 'react-icons-kit/md/ic_place';
+import {facebookSquare} from 'react-icons-kit/fa/facebookSquare'
+import {linkedinSquare} from 'react-icons-kit/fa/linkedinSquare'
+import {instagram} from 'react-icons-kit/fa/instagram'
 import Box from 'common/components/Box';
 import {
   AboutUs, ContactInfo, FooterWidget, Grid, InfoItem, Section
 } from './footer.style';
+import { color } from 'styled-system';
 
 const Footer = () => {
   return (
@@ -24,7 +28,7 @@ const Footer = () => {
             </Box>
             <Text content={footer.about.text} />
           </AboutUs>
-          {footer.widgets.map((item) => (
+          {/* {footer.widgets.map((item) => (
             <FooterWidget key={item.id}>
               <h4>{item.title}</h4>
               <ul>
@@ -35,7 +39,7 @@ const Footer = () => {
                 ))}
               </ul>
             </FooterWidget>
-          ))}
+          ))} */}
           <ContactInfo>
             <Heading as="h4" content={footer.contactInfo.title} />
             <InfoItem>
@@ -43,10 +47,19 @@ const Footer = () => {
               <Text content={footer.contactInfo.address} />
             </InfoItem>
             <InfoItem>
-            </InfoItem>
-            <InfoItem>
               <Icon icon={paperPlane} size={22} />
               <Text content={footer.contactInfo.email} />
+            </InfoItem>
+            <InfoItem>
+              <Link href={footer.contactInfo.social.facebook} target='_blank' style={{color: '#767676'}}>
+                <Icon icon={facebookSquare} size={24} />
+              </Link>
+              <Link href={footer.contactInfo.social.linkedin} target='_blank' style={{color: '#767676'}}>
+                <Icon icon={linkedinSquare} size={24} />
+              </Link>
+              <Link href={footer.contactInfo.social.instagram} target='_blank' style={{color: '#767676'}}>
+                <Icon icon={instagram} size={24} />
+              </Link>
             </InfoItem>
           </ContactInfo>
         </Grid>
