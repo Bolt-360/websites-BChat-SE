@@ -94,9 +94,9 @@ export const monitoringFeatures = [
 // stats counter section
 export const bchatDesc_1 = {
   blockTitle: {
-    subtitle: 'Pontos de venda',
-    title: `Pontos de venda chave`,
-    text: 'O BChat SE torna sua equipe mais produtiva, ágil e capaz de colaborar sem precisar alternar entre aplicativos.',
+    subtitle: 'Diferencial',
+    title: `Por Que Escolher o BChat SE?`,
+    text: 'Mais do que um simples chat, o BChat SE é uma plataforma completa que transforma a maneira como sua equipe se comunica e executa tarefas. Com automação inteligente e colaboração integrada, você ganha produtividade e eficiência sem complicações.',
     button: {
       link: '#',
       label: 'Saiba mais',
@@ -105,26 +105,26 @@ export const bchatDesc_1 = {
   posts: [
     {
       count: '80',
-      title: 'Up to',
-      text: 'Customer Response',
+      title: 'Até Mais',
+      text: 'de Engajamento',
       symbol: '%',
     },
     {
       count: '99',
-      title: 'Consistent',
-      text: 'Performance Score',
+      title: 'Estabilidade',
+      text: 'Segurança e Confiabilidade',
       symbol: '%',
     },
     {
-      count: '3.5',
-      title: 'Down to',
-      text: 'Response Time',
-      symbol: 'S',
+      count: '90',
+      title: 'Redução de',
+      text: 'Custos Operacionais',
+      symbol: '%',
     },
     {
       count: '5x',
-      title: 'Up to',
-      text: 'Faster then others',
+      title: 'Até',
+      text: 'Mais Rápido',
       symbol: '',
     },
   ],
@@ -133,8 +133,8 @@ export const bchatDesc_1 = {
 export const bchatDesc_2 = {
   blockTitle: {
     subtitle: 'Colaboração em Equipe',
-    title: `Colaboração em Equipe`,
-    text: 'O BChat SE torna sua equipe mais produtiva, ágil e capaz de colaborar sem precisar alternar entre aplicativos.',
+    title: `Colaboração Sem Barreiras para Equipes Mais Produtivas`,
+    text: 'Diga adeus à troca constante de aplicativos! O BChat SE reúne tudo o que sua equipe precisa em um único lugar, promovendo agilidade, alinhamento e colaboração fluida. Trabalhe com mais eficiência, mantenha a comunicação centralizada e alcance melhores resultados.',
     button: {
       link: '#',
       label: 'Saiba mais',
@@ -142,27 +142,27 @@ export const bchatDesc_2 = {
   },
   posts: [
     {
-      count: '80',
-      title: 'Up to',
-      text: 'Customer Response',
+      count: '85',
+      title: 'Até Mais',
+      text: 'de Colaboração',
       symbol: '%',
     },
     {
-      count: '99',
-      title: 'Consistent',
-      text: 'Performance Score',
+      count: '100',
+      title: 'Centralização',
+      text: 'Integrada',
       symbol: '%',
     },
     {
-      count: '3.5',
-      title: 'Down to',
-      text: 'Response Time',
-      symbol: 'S',
+      count: '95',
+      title: 'Mais de',
+      text: 'de Satisfação da Equipe',
+      symbol: '%',
     },
     {
       count: '5x',
-      title: 'Up to',
-      text: 'Faster then others',
+      title: 'Fluxo de Trabalho',
+      text: 'Mais Rápido',
       symbol: '',
     },
   ],
@@ -170,9 +170,9 @@ export const bchatDesc_2 = {
 
 export const bchatDesc_3 = {
   blockTitle: {
-    subtitle: 'Automatize suas tarefas',
-    title: `Automatize suas tarefas repetitivas`,
-    text: 'Configure regras de automação para lidar com o trabalho repetitivo, permitindo que você dedique mais atenção aos seus clientes.',
+    subtitle: 'Automatição de tarefas',
+    title: `Automatize Suas Tarefas e Foque no Que Realmente Importa`,
+    text: 'Elimine o trabalho repetitivo e ganhe mais tempo para o que faz a diferença. Com as regras de automação do BChat SE, você simplifica processos, reduz erros e melhora a eficiência, permitindo que sua equipe se concentre no atendimento e na experiência dos clientes.',
     button: {
       link: '#',
       label: 'Saiba mais',
@@ -180,27 +180,27 @@ export const bchatDesc_3 = {
   },
   posts: [
     {
-      count: '80',
-      title: 'Up to',
-      text: 'Customer Response',
+      count: '90',
+      title: 'Até Mais',
+      text: 'de Automação',
       symbol: '%',
     },
     {
       count: '99',
-      title: 'Consistent',
-      text: 'Performance Score',
+      title: 'Precisão de',
+      text: 'Processos Automatizados Sem Erros',
       symbol: '%',
     },
     {
-      count: '3.5',
-      title: 'Down to',
-      text: 'Response Time',
+      count: '2',
+      title: 'Menos de',
+      text: 'de Tempo de Resposta',
       symbol: 'S',
     },
     {
       count: '5x',
-      title: 'Up to',
-      text: 'Faster then others',
+      title: 'Até',
+      text: 'Mais Rápido',
       symbol: '',
     },
   ],
