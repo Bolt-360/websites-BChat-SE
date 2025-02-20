@@ -1,4 +1,3 @@
-import axios from 'axios';
 import phone from 'common/assets/image/saasAppDark/phone.png';
 import Heading from 'common/components/Heading';
 import Input from 'common/components/Input';
@@ -17,36 +16,62 @@ import Section, {
 
 
 const AppDownload = () => {
-  const [value, setValue] = useState();
+  const [value, setValue] = useState('');
   const [nome, setNome] = useState('');
 
   const handleNomeChange = (e) => {
     if (e && e.target) {
       setNome(e.target.value);
+    } else if (e !== undefined) {
+      setNome(e);
     }
   };
 
   const handleSubmit = async () => {
     try {
-      if (!nome || !value) {
-        toast.error('Por favor, preencha todos os campos!');
+      if (!nome || nome.trim() === '') {
+        toast.error('Por favor, preencha o nome!');
         return;
       }
 
-      const response = await axios.post('https://n8n2.bchat.lat/webhook/fale-conosco', {
-        nome,
-        telefone: value,
-      });
-      
-      if (response.status === 200) {
-        toast.success('Mensagem enviada com sucesso!');
-        setNome('');
-        setValue('');
-      } else {
-        toast.error('Erro ao enviar mensagem!');
+      if (!value || value.trim() === '') {
+        toast.error('Por favor, preencha o telefone!');
+        return;
       }
+
+      const params = {
+        nome: nome,
+        telefone: value,
+      };
+
+      // URL correta do webhook de teste
+      const response = await fetch('https://n8n2.bchat.lat/webhook-test/landing-page', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(params)
+      });
+
+      // Log para debug
+      console.log('Status da resposta:', response.status);
+      console.log('Dados enviados:', params);
+
+      const responseData = await response.json();
+      console.log('Resposta do servidor:', responseData);
+
+      if (!response.ok) {
+        throw new Error(`Erro do servidor: ${response.status}`);
+      }
+
+      setNome('');
+      setValue('');
+      toast.success('Mensagem enviada com sucesso!');
+
     } catch (error) {
-      toast.error('Erro! Fale com o suporte.');
+      console.error('Erro completo:', error);
+      toast.error(`Erro ao enviar os dados: ${error.message}`);
     }
   };
 
@@ -60,8 +85,8 @@ const AppDownload = () => {
               <div className="NameInput">
                 <Input 
                   placeholder="João Silva"
-                  onChange={handleNomeChange}
-                  value={nome || ''}
+                  value={nome}
+                  onChange={(value) => setNome(value)}
                 />
               </div>
               <PhoneInput
