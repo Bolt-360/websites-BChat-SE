@@ -24,7 +24,7 @@ const Banner = () => {
           <BannerContent>
             <h2 className="animate__animated animate__fadeInUp">
               Relacionamentos com clientes encantadores
-              em <span style={{color: '#15E49E'}}>Escala</span>
+              em <span style={{color: '#30A66B'}}>Escala</span>
             </h2>
             <Text
               className="animate__animated animate__fadeInUp"

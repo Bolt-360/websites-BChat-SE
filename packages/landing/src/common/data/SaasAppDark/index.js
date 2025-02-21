@@ -6,7 +6,7 @@ export const menu_items = [
     offset: '70',
   },
   {
-    label: 'Serviços',
+    label: 'Benefícios',
     path: '#how-to',
     offset: '70',
   },
@@ -221,7 +221,7 @@ export const videoIntro = {
     },
     {
       id: 3,
-        title: 'Atendimento ao cliente',
+      title: 'Atendimento ao cliente',
       desc: 'Ofereça um chat ao vivo que combina com sua marca.',
     },
   ],
