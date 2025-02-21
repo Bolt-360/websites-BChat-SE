@@ -27,7 +27,7 @@ export default class CustomDocument extends Document {
   }
   render() {
     return (
-      <Html lang="en">
+      <Html lang="pt-br">
         <Head>
           <link rel="icon" href="/favicon.svg" />
           {/* <link
